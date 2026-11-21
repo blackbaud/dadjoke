@@ -1,0 +1,3 @@
+# Shared npm publish actions. Every change needs approval from this team.
+.github/CODEOWNERS @engineeringsystem/ptg-es-team-all-skyuxservices
+.github/workflows/npm-publish.yml @engineeringsystem/ptg-es-team-all-skyuxservices

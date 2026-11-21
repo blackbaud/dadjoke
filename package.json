@@ -1,0 +1,27 @@
+{
+  "name": "dadjoke",
+  "version": "1.0.2",
+  "description": "Node CLI for apparent jokes",
+  "homepage": "https://github.com/blackbaud/dadjoke#readme",
+  "bin": {
+    "dadjoke": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/blackbaud/dadjoke/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackbaud/dadjoke.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/build.mjs",
+    "test": "node --test"
+  },
+  "pipelineSettings": {
+    "publishToNPM": true
+  }
+}
