@@ -19,7 +19,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node ./scripts/build.mjs",
-    "test": "node --test"
+    "test": "node --test --experimental-test-module-mocks"
   },
   "pipelineSettings": {
     "publishToNPM": true
